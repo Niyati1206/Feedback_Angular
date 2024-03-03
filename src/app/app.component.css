@@ -60,11 +60,10 @@ button[type="submit"]:hover {
 } */
 
 /*style.css */
-@import url( 
-'https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
+@import url( 'https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 
-body { 
-	margin: 0; 
+.body { 
+	
 	display: flex; 
 	align-items: center; 
 	justify-content: space-around; 
@@ -140,7 +139,7 @@ button {
 button:hover { 
 	background-color: #0a6808; 
 	border: none; 
-	transform: translateY(-10px); 
+	/* transform: translateY(-10px);  */
 } 
 
 h1 { 
